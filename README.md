@@ -23,7 +23,7 @@ It showcases how various Azure components work together to build a scalable, mod
 
 azure-data-pipeline-project/
 │
-├── README.md
+├── README.md # Project documentation
 ├── architecture.png # Diagram of the entire pipeline
 │
 ├── data_factory/
@@ -40,9 +40,6 @@ azure-data-pipeline-project/
 │ ├── CreateExternalTable.sql
 │ └── CreateViewsGold.sql
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -62,9 +59,6 @@ Edit
 ↓
 [Azure Synapse Analytics]
 
-markdown
-Copy
-Edit
 
 ---
 
