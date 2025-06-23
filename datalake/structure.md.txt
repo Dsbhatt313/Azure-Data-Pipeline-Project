@@ -1,0 +1,13 @@
+# Azure Data Lake Structure
+
+## Containers
+- **bronze**: Raw data ingested from GitHub using ADF
+- **silver**: Cleaned data stored after Databricks transformation
+- **gold**: Aggregated data for Synapse analytics
+
+## File Types
+- CSV/JSON files
+- Partitioned by date
+
+## Notes
+- Schema is validated using ADF mapping
